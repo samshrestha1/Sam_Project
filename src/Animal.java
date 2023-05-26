@@ -37,4 +37,13 @@ public class Animal {
         }
         return list;
     }
+
+    public List<Integer> getNumber() {
+        List<Integer> list = new ArrayList<>();
+
+        for (int i = 1; i <= this.age; i++) {
+            list.add(this.age + i);
+        }
+        return list;
+    }
 }

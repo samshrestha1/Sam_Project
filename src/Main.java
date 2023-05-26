@@ -9,7 +9,8 @@ public class Main {
         jay.setName("Nischu");
         jay.setAge(100);
         List<String> text = jay.getText();
-        List<Character> collect = text.stream().map(val -> val.charAt(1)).toList();
-        text.forEach(val->System.out.print("Name: "+collect + "\n"));
+        List<Integer> number = jay.getNumber();
+//        List<Character> collect = text.stream().map(val -> val.charAt(1)).toList();
+        number.forEach(val->System.out.print("Name: "+number + "\n"));
     }
 }
